@@ -1,6 +1,6 @@
 # PASTA: Part-Aware Sketch-to-3D Shape Generation with Text-Aligned Prior
 
-Official PyTorch implementation of the ICCV 2025 paper **PASTA**
+🚀 Official PyTorch Implementation of **PASTA** — *Accepted to ICCV 2025* 🎉  
 
 ![PASTA teaser](fig/teaser.png)
 
@@ -68,3 +68,26 @@ Alternatively, you can proceed with training by executing the shell as shown bel
 ```bash
 sh train.sh
 ```
+
+### Download
+
+We provide the following resources for reproducing our results and running inference:
+
+- 🔗 **Pretrained Checkpoint**: [Download model checkpoint](https://kuaicv.synology.me/iccv2025/PASTA/model)  
+  Use this for testing and inference with `eval.py`.
+
+- 📝 **AmateurSketch-3D LLaVA Features**: [Download shapenet_amateur.zip](https://kuaicv.synology.me/iccv2025/PASTA/shapenet_amateur.zip)  
+  This zip file contains LLaVA-7B features for the AmateurSketch-3D dataset used in our evaluation.
+
+
+### Citation
+
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@article{lee2025pasta,
+  title={PASTA: Part-Aware Sketch-to-3D Shape Generation with Text-Aligned Prior},
+  author={Lee, Seunggwan and Jung, Hwanhee and Koh, Byoungsoo and Huang, Qixing and Yoon, Sangho and Kim, Sangpil},
+  journal={arXiv preprint arXiv:2503.12834},
+  year={2025}
+}
